@@ -12,3 +12,5 @@ static domain_name_servers=192.168.42.129
 ```
 4. sudo systemctl restart dhcpcd
 5. install apk [download](https://github.com/Cine-Fox/cinepi-apk/releases)
+6. connect to pi and enable usb tethering
+7. launch App
