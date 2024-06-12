@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         int flag = WindowManager.LayoutParams.FLAG_FULLSCREEN;
         window.setFlags(flag,flag);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
         setContentView(R.layout.activity_main);
         webView = findViewById(R.id.webView);
         webView.setWebViewClient(new WebViewClient() {
